@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <Button
+        android:id="@+id/close_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_margin="5dp"
+        android:background="@drawable/circle_shape_button"
+        android:drawableLeft="@drawable/ic_close_black_24dp"
+        android:drawableStart="@drawable/ic_close_black_24dp"
+        android:drawableTint="@color/colorPrimary"
+        android:paddingLeft="13dp"
+        android:paddingStart="13dp"
+        tools:ignore="RtlSymmetry" />
+
+    <ImageView
+        android:id="@+id/iv_signature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="350dp" />
+</FrameLayout>
